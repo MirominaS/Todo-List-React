@@ -1,0 +1,85 @@
+.todo-list{
+  border-style: solid ;
+  border-radius: 10px;
+  border-width: 2px;
+  margin: 20px 350px;
+  position: relative;
+
+}
+
+.form{
+
+}
+
+ul{
+  list-style-type: none;
+
+}
+/* ul li{
+  padding-right: 35px;
+  padding: 5px;
+ 
+} */
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 55px;
+  margin: 0px 40px 10px 0px;
+
+}
+.todo{
+  
+}
+.btns{
+  display: flex;
+  gap: 10px;
+}
+
+.input{
+  margin: 5px;
+  padding: 5px 95px;
+}
+
+.btn-add{
+  margin: 5px;
+  padding: 7px 20px;
+  background-color: lightslategray;
+  border:lightslategray;
+  border-radius: 5px;
+}
+
+.btn-add:hover{
+  background-color: gray;
+  color: white;
+}
+
+.btn-edit{
+  margin: 5px;
+  padding: 7px 20px;
+  background-color: green;
+  border:green;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-edit:hover{
+  opacity: 0.8;
+  /* color: black; */
+  
+}
+
+.btn-delete{
+  margin: 5px;
+  padding: 7px 20px;
+  background-color: red;
+  border:red;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-delete:hover{
+  opacity: 0.8;
+  /* color: black; */
+}
